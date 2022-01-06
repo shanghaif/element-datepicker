@@ -6,15 +6,13 @@ Vue 2.6.10+
 
 Element-UI 2.15.6+
 
+
 ### 安装
 
 ```
 npm install @thtf/element-datepicker
 ```
 
-### 发布
-
-main 分支提交即可。
 
 ### 快速上手
 
@@ -68,6 +66,7 @@ main 分支提交即可。
 </script>
 ```
 
+
 ###  日期格式
 
 使用`format`指定输入框的格式；使用`value-format`指定绑定值的格式。
@@ -109,12 +108,14 @@ main 分支提交即可。
 | clear-icon | 自定义清空图标的类名 | string | —                                                                           | el-icon-circle-close |
 | validate-event | 输入时是否触发表单的校验 | boolean | -                                                                           | true                 |
 
+
 ### 事件
 | 事件名称      | 说明    | 回调参数      |
 |---------|--------|---------|
 | change | 用户确认选定的值时触发 | 组件绑定值。格式与绑定值一致，可受 `value-format` 控制 |
 | blur | 当 input 失去焦点时触发 | 组件实例 |
 | focus | 当 input 获得焦点时触发 | 组件实例 |
+
 
 ### 方法
 | 方法名 | 说明 | 参数 |

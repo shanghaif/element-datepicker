@@ -1,6 +1,6 @@
 {
   "name": "@thtf/element-datepicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A quarter selector component based on element-ui",
   "main": "dist/index.umd.min.js",
   "keywords": [
@@ -16,6 +16,15 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thtfjs/element-datepicker.git"
+  },
+  "homepage": "https://thtfjs.github.io/element-datepicker/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thtfjs/element-datepicker/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --target lib --name @thtf/element-datepicker --dest dist --filename index src/components/index.js",
