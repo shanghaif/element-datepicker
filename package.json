@@ -1,0 +1,66 @@
+{
+  "name": "@thtf/element-datepicker",
+  "version": "0.0.1",
+  "description": "A quarter selector component based on element-ui",
+  "main": "dist/index.umd.min.js",
+  "keywords": [
+    "vue",
+    "element",
+    "element-ui",
+    "date",
+    "date-picker",
+    "quarter",
+    "date-picker"
+  ],
+  "author": "thtf",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --target lib --name @thtf/element-datepicker --dest dist --filename index src/components/index.js",
+    "lint": "vue-cli-service lint --fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "babel-eslint": "10.1.0",
+    "element-ui": "^2.15.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.15.6"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}
